@@ -1,0 +1,6 @@
+@import url('../../App.css');
+
+.navbar {
+    --navbar-background-color: #B4AEE8;
+    background-color: var(--navbar-background-color);
+}
