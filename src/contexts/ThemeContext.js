@@ -1,6 +1,5 @@
 import React, { useState, createContext } from 'react';
-
-import { noop } from 'utils';
+import { noop } from '../utils';
 
 export const THEMES = {
   LIGHT: 'LIGHT',

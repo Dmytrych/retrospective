@@ -1,0 +1,20 @@
+.nav-button {
+    height: 2rem;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+
+    font-size: var(--global-font-size);
+    text-align: start;
+    color: var(--navbar-text-color);
+}
+
+.nav-button:active {
+    width: 100%;
+    background-color: var(--global-color-primary-highlight);
+}
+
+.nav-button:hover {
+    width: 100%;
+    background-color: var(--global-color-primary-highlight);
+}
