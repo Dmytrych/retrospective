@@ -1,8 +1,8 @@
 import NavLink from '../NavLink';
-import './Navbar.css';
+import './index.css';
 
 export default function Navbar() {
-    return <div className='navbar menu-left'>
+    return <div className={"menu-left navbar"} >
         <div className='display-flex flex-column'>
             <div>
                 <NavLink className="maximize-width" text="Home" href=""/>
