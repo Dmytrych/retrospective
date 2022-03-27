@@ -3,6 +3,11 @@ body {
     padding: 0px;
 }
 
+.whole-window {
+    min-height: 100vh;
+    background-color: var(--global-background-color);
+}
+
 .display-flex {
     display: flex;
 }

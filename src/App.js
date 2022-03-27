@@ -15,7 +15,7 @@ function App() {
       <ThemeProvider>
         <WrapperPage>
           <Header openMenu={() => setMenuVisible(!menuVisible)}/>
-          <div className="display-flex flex-row">
+          <div className="display-flex flex-row whole-window">
             {menuVisible ? <Navbar/> : <></>}
             <Routes>
               <Route path="/" element={<Home />} />
