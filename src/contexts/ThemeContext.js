@@ -4,7 +4,7 @@ import { noop } from '../utils';
 export const THEMES = {
   LIGHT: 'LIGHT',
   DARK: 'DARK',
-};
+}; 
 
 const initialState = THEMES.LIGHT;
 

@@ -6,6 +6,7 @@ import WrapperPage from "./pages/WrapperPage";
 import Header from "./components/Header";
 import "./App.css"
 import { useContext, useState } from "react";
+import SessionPage from "./pages/SessionPage";
 
 function App() {
   const [ menuVisible, setMenuVisible] = useState(false)
@@ -18,7 +19,8 @@ function App() {
           <div className="display-flex flex-row whole-window">
             {menuVisible ? <Navbar/> : <></>}
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<Home/>} />
+              <Route path="/session" element={<SessionPage/>}/>
             </Routes>
           </div>
         </WrapperPage>
