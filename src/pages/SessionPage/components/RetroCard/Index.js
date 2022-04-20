@@ -7,7 +7,7 @@ function RetroCard({ description }) {
 
   return (
     <div className='card'>
-        Description: <EditableField value={usedDescription} setValue={setDescription}/>
+        <EditableField value={usedDescription} setValue={setDescription}/>
     </div>
   );
 }

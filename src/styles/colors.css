@@ -1,17 +1,17 @@
 .light-theme {
     --global-font-family: Verdana, sans-serif;
     --global-font-size: 1rem;
-    --global-text-color: #222;
+    --global-text-color: #e795da;
     --global-primary-title-size: 2rem;
-    --global-color-primary: #88498f;
+    --global-color-primary: #59315e;
     --global-color-primary-highlight: #a150ac;
     --global-color-secondary: #779fa1;
     --global-color-warning: #e28413;
     --global-color-danger: #ff6542;
-    --global-background-color: #faeaff;
+    --global-background-color: #221525;
 
-    --navbar-text-color: #f19ce3;
-    --navbar-background-color: #95509c;
+    --navbar-background-color: #6b3a72;
 
-    --retro-card-color: #760083;
+    --retro-column-color: #4a394da6;
+    --retro-card-color: #8a4d91;
 }

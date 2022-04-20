@@ -5,7 +5,15 @@ import './index.css'
 function CardColumn({ cards }) {
   return (
     <div className='retro-column'>
-        <RetroCard description={cards[0].caption}></RetroCard>
+        <div className='retro-column-card'>
+          <RetroCard description={cards[0].caption}></RetroCard>
+        </div>
+        <div className='retro-column-card'>
+          <RetroCard description={cards[0].caption}></RetroCard>
+        </div>
+        <div className='retro-column-card'>
+          <RetroCard description={cards[0].caption}></RetroCard>
+        </div>
     </div>
   );
 }

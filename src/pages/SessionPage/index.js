@@ -16,8 +16,15 @@ function SessionPage() {
 
   return (
     <div className='whole-window display-flex flex-row'>
-        <CardColumn cards={cards}/>
-        <CardColumn cards={cards}/>
+        <div className='session-column'>
+            <CardColumn cards={cards}/>
+        </div>
+        <div className='session-column'>
+            <CardColumn cards={cards}/>
+        </div>
+        <div className='session-column'>
+            <CardColumn cards={cards}/>
+        </div>
     </div>
   );
 }

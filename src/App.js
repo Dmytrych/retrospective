@@ -15,13 +15,15 @@ function App() {
     <>
       <ThemeProvider>
         <WrapperPage>
-          <Header openMenu={() => setMenuVisible(!menuVisible)}/>
-          <div className="display-flex flex-row whole-window">
-            {menuVisible ? <Navbar/> : <></>}
-            <Routes>
-              <Route path="/" element={<Home/>} />
-              <Route path="/session" element={<SessionPage/>}/>
-            </Routes>
+          <div className="text-default">
+            <Header openMenu={() => setMenuVisible(!menuVisible)}/>
+            <div className="display-flex flex-row whole-window">
+              {menuVisible ? <Navbar/> : <></>}
+              <Routes>
+                <Route path="/" element={<Home/>} />
+                <Route path="/session" element={<SessionPage/>}/>
+              </Routes>
+            </div>
           </div>
         </WrapperPage>
       </ThemeProvider>
