@@ -1,8 +1,9 @@
 import './index.css'
+import { useNavigate } from 'react-router-dom'
 
-export default function NavLink({ text, href, onClick, disabled = false, visible = true }) {
+export default function NavLink({ text, href, disabled = false, visible = true }) {
+    const navigate = useNavigate()
+
     return visible ? 
-    <a href={href}>
-        <button className="nav-button text-default">{text}</button>
-    </a> : <></>
+    <button className="nav-button text-default" onClick={() => navigate(href, {replace: true})}>{text}</button> : <></>
 }

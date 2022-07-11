@@ -7,3 +7,9 @@
     flex-grow: 1;
     margin: 0.3vw;
 }
+
+.position-center-bottom {
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%);
+}

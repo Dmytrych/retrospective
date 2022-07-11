@@ -12,6 +12,7 @@
 
     --navbar-background-color: #6b3a72;
 
-    --retro-column-color: #4a394da6;
-    --retro-card-color: #8a4d91;
+    --retro-column-color: rgba(74, 57, 77, 0.651);
+    --retro-card-color-defalut: rgb(138, 77, 145);
+    --retro-card-color-draft: rgb(122, 122, 122);
 }

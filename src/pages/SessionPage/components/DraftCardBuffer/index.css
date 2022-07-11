@@ -1,0 +1,7 @@
+.draft-card {
+    min-height: 16em;
+    min-width: 10em;
+    max-width: 12em;
+    height: 16em;
+    margin: 0.5vw;
+}

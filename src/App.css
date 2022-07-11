@@ -20,6 +20,14 @@ body {
     flex-direction: row;
 }
 
+.position-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
 .text-default {
     font-size: var(--global-font-size);
     color: var(--global-text-color);

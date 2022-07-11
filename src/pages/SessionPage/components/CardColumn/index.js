@@ -3,17 +3,14 @@ import RetroCard from '../RetroCard/Index';
 import './index.css'
 
 function CardColumn({ cards }) {
+  console.log(cards)
   return (
     <div className='retro-column'>
-        <div className='retro-column-card'>
-          <RetroCard description={cards[0].caption}></RetroCard>
-        </div>
-        <div className='retro-column-card'>
-          <RetroCard description={cards[0].caption}></RetroCard>
-        </div>
-        <div className='retro-column-card'>
-          <RetroCard description={cards[0].caption}></RetroCard>
-        </div>
+        { cards.map(card => {
+          return <div key={card} className='retro-column-card'>
+            <RetroCard description={card.caption}></RetroCard>
+          </div>
+        })}
     </div>
   );
 }
