@@ -1,10 +1,7 @@
 .retro-column {
-    display: grid;
-    min-width: 12em;
-    grid-gap: 0.3vw;
-    grid-template-columns: repeat(auto-fit, 200px);
+    display: flex;
+    overflow: auto;
     background-color: var(--retro-column-color);
-    height: 100%;
 }
 
 .retro-column-card {
@@ -12,6 +9,6 @@
     min-width: 10em;
     max-width: 12em;
     height: 16em;
-    margin: 0.5vw;
-    flex-grow: 1;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }

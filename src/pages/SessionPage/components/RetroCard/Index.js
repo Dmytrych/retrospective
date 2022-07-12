@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react';
 import EditableField from '../../../../components/EditableField';
+import Card from '../Card/Index';
 import './index.css'
 
 function RetroCard({ description, style = 'default' }) {
@@ -7,9 +8,9 @@ function RetroCard({ description, style = 'default' }) {
   let usedStyle = style === 'draft' ? 'style-draft' : 'style-default'
 
   return (
-    <div className={`card + ${usedStyle}`}>
-        <EditableField value={usedDescription} setValue={setDescription}/>
-    </div>
+    <Card style={style}>
+      <EditableField value={usedDescription} setValue={setDescription}/>
+    </Card>
   );
 }
 

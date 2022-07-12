@@ -5,3 +5,17 @@
     height: 16em;
     margin: 0.5vw;
 }
+
+.card-inner-icon {
+    height: 40%;
+    width: 40%; 
+}
+
+.align-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.max-height {
+    height: 100%;
+}
