@@ -1,19 +1,5 @@
 .navbar {
+    height: inherit;
+    width: inherit;
     background-color: var(--navbar-background-color);
-}
-
-.navbar-hidden {
-    visibility: hidden;
-}
-
-.menu-left {
-    left: 0;
-    right: 0;
-    margin-left: 0;
-    margin-right: 0;
-    min-width: 12em;
-}
-
-.maximize-width {
-    width: 100px;
 }

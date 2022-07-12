@@ -3,7 +3,6 @@
 }
 
 .session-column {
-    justify-content: space-around;
     flex-grow: 1;
     margin: 0.3vw;
 }

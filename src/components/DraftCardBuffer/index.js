@@ -1,7 +1,7 @@
 import { AiOutlinePlusCircle } from "react-icons/ai" 
 import React, { useContext, useState } from 'react';
-import RetroCard from '../RetroCard/Index'
-import Card from '../Card/Index'
+import RetroCard from '../RetroCard'
+import Card from '../Card'
 import './index.css'
 
 function DraftCardBuffer({ cards }) {

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 
-import CardColumn from './components/CardColumn';
-import DraftCardBuffer from './components/DraftCardBuffer/Index';
+import DraftCardBuffer from '../../components/DraftCardBuffer';
+import CardColumn from '../../components/CardColumn';
 
 import './index.css'
 
@@ -29,7 +29,7 @@ function SessionPage() {
 
   return (
     <div className='whole-window'>
-        <div className='display-flex flex-row'>
+        <div className='display-flex flex-row space-around'>
             <div className='session-column'>
                 <CardColumn cards={cards}/>
             </div>

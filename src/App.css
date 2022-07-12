@@ -1,35 +1,4 @@
-body {
-    margin: 0px;
-    padding: 0px;
-}
-
-.whole-window {
-    min-height: 100vh;
-    background-color: var(--global-background-color);
-}
-
-.display-flex {
-    display: flex;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-.flex-row {
-    flex-direction: row;
-}
-
-.position-absolute {
-    position: absolute;
-}
-
-.position-fixed {
-    position: fixed;
-}
-
-.text-default {
-    font-size: var(--global-font-size);
-    color: var(--global-text-color);
-    font-family: var(--global-font-family);
+.sidebar {
+    min-width: 12em;
+    height: 100%;
 }

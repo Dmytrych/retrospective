@@ -2,7 +2,7 @@ import NavLink from '../NavLink';
 import './index.css';
 
 export default function Navbar() {
-    return <div className={"menu-left navbar"} >
+    return <div className={"navbar"} >
         <div className='display-flex flex-column'>
             <div>
                 <NavLink text="Home" href="/"/>
