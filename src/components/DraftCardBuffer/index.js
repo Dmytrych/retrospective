@@ -4,7 +4,8 @@ import RetroCard from '../RetroCard'
 import Card from '../Card'
 import './index.css'
 
-function DraftCardBuffer({ cards }) {
+function DraftCardBuffer({ cards, cardsDisplayLimit }) {
+  let displayedCards = cards.slice(0, cardsDisplayLimit - 1)
 
   return (
     <div className='display-flex flex-row'>
@@ -15,7 +16,10 @@ function DraftCardBuffer({ cards }) {
           </div>
         </Card>
       </div>
-      { cards.map(card => {
+      <div>
+        
+      </div>
+      { displayedCards.map(card => {
           return <div key={card} className='draft-card'>
             <RetroCard description={card.caption} style='draft'></RetroCard>
           </div>
